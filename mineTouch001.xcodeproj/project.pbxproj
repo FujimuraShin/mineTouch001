@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74E9A03D264CF7FC006C03AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9A03C264CF7FC006C03AF /* AppDelegate.swift */; };
+		74E9A03F264CF7FC006C03AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9A03E264CF7FC006C03AF /* SceneDelegate.swift */; };
+		74E9A041264CF7FC006C03AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9A040264CF7FC006C03AF /* ViewController.swift */; };
+		74E9A044264CF7FC006C03AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9A042264CF7FC006C03AF /* Main.storyboard */; };
+		74E9A046264CF7FC006C03AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74E9A045264CF7FC006C03AF /* Assets.xcassets */; };
+		74E9A049264CF7FC006C03AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E9A047264CF7FC006C03AF /* LaunchScreen.storyboard */; };
+		74E9A054264CF7FC006C03AF /* mineTouch001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9A053264CF7FC006C03AF /* mineTouch001Tests.swift */; };
+		74E9A05F264CF7FC006C03AF /* mineTouch001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E9A05E264CF7FC006C03AF /* mineTouch001UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74E9A050264CF7FC006C03AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E9A031264CF7FC006C03AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E9A038264CF7FC006C03AF;
+			remoteInfo = mineTouch001;
+		};
+		74E9A05B264CF7FC006C03AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74E9A031264CF7FC006C03AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E9A038264CF7FC006C03AF;
+			remoteInfo = mineTouch001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74E9A039264CF7FC006C03AF /* mineTouch001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mineTouch001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E9A03C264CF7FC006C03AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74E9A03E264CF7FC006C03AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74E9A040264CF7FC006C03AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74E9A043264CF7FC006C03AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74E9A045264CF7FC006C03AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74E9A048264CF7FC006C03AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74E9A04A264CF7FC006C03AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E9A04F264CF7FC006C03AF /* mineTouch001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineTouch001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E9A053264CF7FC006C03AF /* mineTouch001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mineTouch001Tests.swift; sourceTree = "<group>"; };
+		74E9A055264CF7FC006C03AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E9A05A264CF7FC006C03AF /* mineTouch001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mineTouch001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E9A05E264CF7FC006C03AF /* mineTouch001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mineTouch001UITests.swift; sourceTree = "<group>"; };
+		74E9A060264CF7FC006C03AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E9A036264CF7FC006C03AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9A04C264CF7FC006C03AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9A057264CF7FC006C03AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74E9A030264CF7FC006C03AF = {
+			isa = PBXGroup;
+			children = (
+				74E9A03B264CF7FC006C03AF /* mineTouch001 */,
+				74E9A052264CF7FC006C03AF /* mineTouch001Tests */,
+				74E9A05D264CF7FC006C03AF /* mineTouch001UITests */,
+				74E9A03A264CF7FC006C03AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74E9A03A264CF7FC006C03AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74E9A039264CF7FC006C03AF /* mineTouch001.app */,
+				74E9A04F264CF7FC006C03AF /* mineTouch001Tests.xctest */,
+				74E9A05A264CF7FC006C03AF /* mineTouch001UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74E9A03B264CF7FC006C03AF /* mineTouch001 */ = {
+			isa = PBXGroup;
+			children = (
+				74E9A03C264CF7FC006C03AF /* AppDelegate.swift */,
+				74E9A03E264CF7FC006C03AF /* SceneDelegate.swift */,
+				74E9A040264CF7FC006C03AF /* ViewController.swift */,
+				74E9A042264CF7FC006C03AF /* Main.storyboard */,
+				74E9A045264CF7FC006C03AF /* Assets.xcassets */,
+				74E9A047264CF7FC006C03AF /* LaunchScreen.storyboard */,
+				74E9A04A264CF7FC006C03AF /* Info.plist */,
+			);
+			path = mineTouch001;
+			sourceTree = "<group>";
+		};
+		74E9A052264CF7FC006C03AF /* mineTouch001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74E9A053264CF7FC006C03AF /* mineTouch001Tests.swift */,
+				74E9A055264CF7FC006C03AF /* Info.plist */,
+			);
+			path = mineTouch001Tests;
+			sourceTree = "<group>";
+		};
+		74E9A05D264CF7FC006C03AF /* mineTouch001UITests */ = {
+			isa = PBXGroup;
+			children = (
+				74E9A05E264CF7FC006C03AF /* mineTouch001UITests.swift */,
+				74E9A060264CF7FC006C03AF /* Info.plist */,
+			);
+			path = mineTouch001UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74E9A038264CF7FC006C03AF /* mineTouch001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E9A063264CF7FC006C03AF /* Build configuration list for PBXNativeTarget "mineTouch001" */;
+			buildPhases = (
+				74E9A035264CF7FC006C03AF /* Sources */,
+				74E9A036264CF7FC006C03AF /* Frameworks */,
+				74E9A037264CF7FC006C03AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mineTouch001;
+			productName = mineTouch001;
+			productReference = 74E9A039264CF7FC006C03AF /* mineTouch001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74E9A04E264CF7FC006C03AF /* mineTouch001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E9A066264CF7FC006C03AF /* Build configuration list for PBXNativeTarget "mineTouch001Tests" */;
+			buildPhases = (
+				74E9A04B264CF7FC006C03AF /* Sources */,
+				74E9A04C264CF7FC006C03AF /* Frameworks */,
+				74E9A04D264CF7FC006C03AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E9A051264CF7FC006C03AF /* PBXTargetDependency */,
+			);
+			name = mineTouch001Tests;
+			productName = mineTouch001Tests;
+			productReference = 74E9A04F264CF7FC006C03AF /* mineTouch001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74E9A059264CF7FC006C03AF /* mineTouch001UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E9A069264CF7FC006C03AF /* Build configuration list for PBXNativeTarget "mineTouch001UITests" */;
+			buildPhases = (
+				74E9A056264CF7FC006C03AF /* Sources */,
+				74E9A057264CF7FC006C03AF /* Frameworks */,
+				74E9A058264CF7FC006C03AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74E9A05C264CF7FC006C03AF /* PBXTargetDependency */,
+			);
+			name = mineTouch001UITests;
+			productName = mineTouch001UITests;
+			productReference = 74E9A05A264CF7FC006C03AF /* mineTouch001UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74E9A031264CF7FC006C03AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					74E9A038264CF7FC006C03AF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					74E9A04E264CF7FC006C03AF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 74E9A038264CF7FC006C03AF;
+					};
+					74E9A059264CF7FC006C03AF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 74E9A038264CF7FC006C03AF;
+					};
+				};
+			};
+			buildConfigurationList = 74E9A034264CF7FC006C03AF /* Build configuration list for PBXProject "mineTouch001" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74E9A030264CF7FC006C03AF;
+			productRefGroup = 74E9A03A264CF7FC006C03AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74E9A038264CF7FC006C03AF /* mineTouch001 */,
+				74E9A04E264CF7FC006C03AF /* mineTouch001Tests */,
+				74E9A059264CF7FC006C03AF /* mineTouch001UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E9A037264CF7FC006C03AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9A049264CF7FC006C03AF /* LaunchScreen.storyboard in Resources */,
+				74E9A046264CF7FC006C03AF /* Assets.xcassets in Resources */,
+				74E9A044264CF7FC006C03AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9A04D264CF7FC006C03AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9A058264CF7FC006C03AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74E9A035264CF7FC006C03AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9A041264CF7FC006C03AF /* ViewController.swift in Sources */,
+				74E9A03D264CF7FC006C03AF /* AppDelegate.swift in Sources */,
+				74E9A03F264CF7FC006C03AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9A04B264CF7FC006C03AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9A054264CF7FC006C03AF /* mineTouch001Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E9A056264CF7FC006C03AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E9A05F264CF7FC006C03AF /* mineTouch001UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74E9A051264CF7FC006C03AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E9A038264CF7FC006C03AF /* mineTouch001 */;
+			targetProxy = 74E9A050264CF7FC006C03AF /* PBXContainerItemProxy */;
+		};
+		74E9A05C264CF7FC006C03AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E9A038264CF7FC006C03AF /* mineTouch001 */;
+			targetProxy = 74E9A05B264CF7FC006C03AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74E9A042264CF7FC006C03AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E9A043264CF7FC006C03AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74E9A047264CF7FC006C03AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74E9A048264CF7FC006C03AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74E9A061264CF7FC006C03AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74E9A062264CF7FC006C03AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74E9A064264CF7FC006C03AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
+				INFOPLIST_FILE = mineTouch001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mineServer005.mineTouch001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74E9A065264CF7FC006C03AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
+				INFOPLIST_FILE = mineTouch001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mineServer005.mineTouch001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74E9A067264CF7FC006C03AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
+				INFOPLIST_FILE = mineTouch001Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mineServer005.mineTouch001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mineTouch001.app/mineTouch001";
+			};
+			name = Debug;
+		};
+		74E9A068264CF7FC006C03AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
+				INFOPLIST_FILE = mineTouch001Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mineServer005.mineTouch001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mineTouch001.app/mineTouch001";
+			};
+			name = Release;
+		};
+		74E9A06A264CF7FC006C03AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
+				INFOPLIST_FILE = mineTouch001UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mineServer005.mineTouch001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mineTouch001;
+			};
+			name = Debug;
+		};
+		74E9A06B264CF7FC006C03AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P8G2HGF4A;
+				INFOPLIST_FILE = mineTouch001UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mineServer005.mineTouch001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mineTouch001;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74E9A034264CF7FC006C03AF /* Build configuration list for PBXProject "mineTouch001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9A061264CF7FC006C03AF /* Debug */,
+				74E9A062264CF7FC006C03AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E9A063264CF7FC006C03AF /* Build configuration list for PBXNativeTarget "mineTouch001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9A064264CF7FC006C03AF /* Debug */,
+				74E9A065264CF7FC006C03AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E9A066264CF7FC006C03AF /* Build configuration list for PBXNativeTarget "mineTouch001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9A067264CF7FC006C03AF /* Debug */,
+				74E9A068264CF7FC006C03AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E9A069264CF7FC006C03AF /* Build configuration list for PBXNativeTarget "mineTouch001UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E9A06A264CF7FC006C03AF /* Debug */,
+				74E9A06B264CF7FC006C03AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74E9A031264CF7FC006C03AF /* Project object */;
+}
